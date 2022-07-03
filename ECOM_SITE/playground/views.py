@@ -5,4 +5,7 @@ from django.http import HttpResponse
 
 
 def say_hello(request):
+    x=10
+    y=20
+
     return render(request, 'hello.html',{"name":"Shipu"})
